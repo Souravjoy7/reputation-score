@@ -4,17 +4,16 @@
 
 Reputation Score aggregates a user's on-chain activity across multiple DeFi protocols into a single, portable reputation score. Lending history, governance participation, LP provision, and trading behavior are all factored into a universal credit score for the decentralized economy.
 
-## On-Chain Proof
+## On-Chain Proof (Deployed & Verified)
 
-| Contract | Address |
-|----------|---------|
-| ReputationScore | `TBD` |
-| ActivityAggregator | `TBD` |
-| ScoreOracle | `TBD` |
-| ProtocolRegistry | `TBD` |
+### Base Sepolia (OP Stack)
 
-Network: Ethereum Mainnet + L2 (Arbitrum, Optimism, Base, Polygon)
+| Contract | Address | Tx Hash |
+|----------|---------|--------|
+| **UniversalReputation** | [`0x11B5...c392`](https://sepolia.basescan.org/address/0x11B5CeCB58C2Eb3144c9A5A209Fd5D1584C3c392) | [`0x60ea...58c8`](https://sepolia.basescan.org/tx/0x60eab781b6340c9d119b1e6aba4aded73853756c022818ed6c821ccbce7058c8) |
+| **ReputationOracle** | [`0x085D...14c4`](https://sepolia.basescan.org/address/0x085DBc800461dc2d5929BF726384ed101Eb414c4) | [`0x3ebf...25c2`](https://sepolia.basescan.org/tx/0x3ebfdcee8f3d8aacee065b163acbd2475d1ef4e67a59f1f5561c19ba3b9125c2) |
 
+**Deployer**: [`0x7F75...C739`](https://sepolia.basescan.org/address/0x7F75bfAfeD5c96584774c7F2Bc33F3bF887BC739) | **Network**: Base Sepolia
 ## How It Works
 
 1. **Activity Tracking**: The ActivityAggregator monitors on-chain interactions across registered protocols—Aave, Uniswap, Compound, MakerDAO, ENS, and more. It records lending, borrowing, governance participation, and liquidity provision.
